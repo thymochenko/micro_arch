@@ -1,0 +1,21 @@
+<?xml version='1.0' standalone='yes'?>
+<schema>
+    <model>
+        <table>produto</table>
+        <class>Produto</class>
+        <properties>
+		    <prop attributes="type: Integer, method: AutoIncrement">id</prop>
+			<prop attributes="type: String, size: 200">cod</prop>
+			<prop attributes="type: Email, size: 20">nome_prod</prop>
+			<prop attributes="type: Url, size: 20">preco_prod</prop>
+			<prop attributes="type: Text">quant</prop>
+			<prop attributes="type: Date, method: Now">datecreate</prop>
+			<prop attributes="type: Integer">status</prop>
+        </properties>
+    </model>
+
+<views>
+    <template>getAllProduto.tpl</template>
+    <template>getIdProduto.tpl</template> 
+</views>
+</schema>

@@ -1,0 +1,20 @@
+<?xml version='1.0' standalone='yes'?>
+<schema>
+    <model>
+        <table>Pedido</table>
+        <class>Pedido</class>
+        <properties>
+		    <prop attributes="type: Integer, method: AutoIncrement">id</prop>
+			<prop attributes="type: String, size: 200">categoria_id</prop>
+			<prop attributes="type: Email, size: 20">users_id</prop>
+			<prop attributes="type: Url, size: 20">mesa_id</prop>
+			<prop attributes="type: Date, method: Now">datecreate</prop>
+			<prop attributes="type: Integer">status</prop>
+        </properties>
+    </model>
+
+<views>
+    <template>getAllPedido.tpl</template>
+    <template>getIdPedido.tpl</template> 
+</views>
+</schema>

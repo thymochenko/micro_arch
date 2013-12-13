@@ -1,0 +1,8 @@
+<?xml version='1.0' standalone='yes'?>
+<database>
+    <user>oabpi</user>
+    <pass>netsoftweb0002</pass>
+    <name>oabpi</name>
+    <host>200.234.202.86</host>
+    <type>mysql</type>
+</database>

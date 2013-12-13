@@ -1,0 +1,19 @@
+<?xml version='1.0' standalone='yes'?>
+<schema>
+    <model>
+        <table>carrinho</table>
+        <class>Carrinho</class>
+        <properties>
+		    <prop attributes="type: Integer, method: AutoIncrement">id</prop>
+			<prop attributes="type: String, size: 200">produto_id</prop>
+			<prop attributes="type: Email, size: 20">pedido_id</prop>
+			<prop attributes="type: Text">session_id</prop>
+			<prop attributes="type: Date, method: Now">datecreate</prop>
+        </properties>
+    </model>
+
+<views>
+    <template>getAllCarrinho.tpl</template>
+    <template>getIdCarrinho.tpl</template> 
+</views>
+</schema>

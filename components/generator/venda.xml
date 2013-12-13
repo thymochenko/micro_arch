@@ -1,0 +1,18 @@
+<?xml version='1.0' standalone='yes'?>
+<schema>
+    <model>
+        <table>venda</table>
+        <class>Venda</class>
+        <properties>
+		    <prop attributes="type: Integer, method: AutoIncrement">id</prop>
+			<prop attributes="type: String, size: 200">carrinho_id</prop>
+			<prop attributes="type: Email, size: 20">total</prop>
+			<prop attributes="type: Date, method: Now">datecreate</prop>
+	    </properties>
+    </model>
+
+<views>
+    <template>getAllProduto.tpl</template>
+    <template>getIdProduto.tpl</template> 
+</views>
+</schema>

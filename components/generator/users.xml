@@ -1,0 +1,20 @@
+<?xml version='1.0' standalone='yes'?>
+<schema>
+    <model>
+        <table>users</table>
+        <class>Users</class>
+        <properties>
+		    <prop attributes="type: Integer, method: AutoIncrement">id</prop>
+			<prop attributes="type: String, size: 200">Username</prop>
+			<prop attributes="type: Email, size: 20">Password</prop>
+			<prop attributes="type: Url, size: 20">user_type</prop>
+			<prop attributes="type: Date, method: Now">datecreate</prop>
+			<prop attributes="type: Integer">status</prop>
+        </properties>
+    </model>
+
+<views>
+    <template>getAllUsers.tpl</template>
+    <template>getIdUsers.tpl</template> 
+</views>
+</schema>

@@ -1,0 +1,8 @@
+<?xml version='1.0' standalone='yes'?>
+<database>
+    <user>a1442097_webserv</user>
+    <pass>silvia25</pass>
+    <name>a1442097_webserv</name>
+    <host>mysql6.000webhost.com</host>
+    <type>mysql</type>
+</database>

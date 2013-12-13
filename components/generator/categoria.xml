@@ -1,0 +1,18 @@
+<?xml version='1.0' standalone='yes'?>
+<schema>
+    <model>
+        <table>categoria</table>
+        <class>Categoria</class>
+        <properties>
+		    <prop attributes="type: Integer, method: AutoIncrement">id</prop>
+			<prop attributes="type: String, size: 200">descricao</prop>
+			<prop attributes="type: Date, method: Now">datecreate</prop>
+			<prop attributes="type: Integer">status</prop>
+        </properties>
+    </model>
+
+<views>
+    <template>getAllCategoria.tpl</template>
+    <template>getIdCategoria.tpl</template> 
+</views>
+</schema>

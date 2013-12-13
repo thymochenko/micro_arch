@@ -1,0 +1,8 @@
+<?xml version='1.0' standalone='yes'?>
+<database>
+    <user>root</user>
+    <pass>silvia25</pass>
+    <name>empresa</name>
+    <host>localhost</host>
+    <type>mysql</type>
+</database>

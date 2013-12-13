@@ -1,0 +1,23 @@
+<?xml version='1.0' standalone='yes'?>
+<schema>
+    <model>
+        <table>comentario</table>
+        <class>Comentario</class>
+        <properties>
+		    <prop attributes="type: Integer, method: AutoIncrement">id</prop>
+			<prop attributes="type: String, size: 200">nome</prop>
+			<prop attributes="type: Email, size: 20">email</prop>
+			<prop attributes="type: Url, size: 20">site</prop>
+			<prop attributes="type: Text">comentario</prop>
+			<prop attributes="type: Date, method: Now">datecreate</prop>
+			<prop attributes="type: Date,method: Alter">datemodify</prop>
+			<prop attributes="type: Integer">status</prop>
+			<prop attributes="relation: HasBelongToMany">Resposta</prop>
+        </properties>
+    </model>
+
+<views>
+    <template>getAllComentario.tpl</template>
+    <template>getIdComentario.tpl</template> 
+</views>
+</schema>
